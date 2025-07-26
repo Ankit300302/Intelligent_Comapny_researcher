@@ -71,6 +71,12 @@ This guide provides the steps to set up and run the project in two modes:
    ``` bash
      python3 company_researcher.py
 ```
+<a href="https://drive.google.com/file/d/1m91GkIz7j47cT_a48n7AJxV3FgwH89AS/view?usp=sharing" target="_blank">
+  <button style="padding:10px 20px; background-color:#4CAF50; color:white; border:none; border-radius:5px; cursor:pointer;">
+    ▶️ CLI Version Demo Video
+  </button>
+</a>
+
 ## Streamlit version
  > Install Streamlit
    ``` bash
@@ -80,4 +86,10 @@ This guide provides the steps to set up and run the project in two modes:
    ``` bash
     streamlit run app.py
 ```
+<a href="https://drive.google.com/file/d/1oy1NyIS5zRX_dwBxSIpntZWF6jtma4OP/view?usp=sharing" target="_blank">
+  <button style="padding:10px 20px; background-color:#4CAF50; color:white; border:none; border-radius:5px; cursor:pointer;">
+    ▶️ Streamlit Version Demo Video
+  </button>
+</a>
+
 
