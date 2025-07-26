@@ -1,4 +1,4 @@
-# 🧠 Lightweight Company Intelligence Agent
+# 🧠 Company Intelligence Agent
 
 This project is an AI-powered research agent that autonomously gathers and summarizes public company intelligence — including summaries, official websites, key people, product lines, locations, and latest news — using local LLMs, public APIs, and a simple command-line or Streamlit interface.
 
