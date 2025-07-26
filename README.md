@@ -35,4 +35,49 @@ _get_wikipedia  _find_official  _generate_compact  _extract_additional     _get_
 Wikipedia API   DuckDuckGo API      ollama (LLM)      ollama (LLM x 3)     Google News RSS
    (REST)            (JSON)         → one paragraph   → key people         → headlines only
 → summary text   → website URL      summary           → products/services
-                                                     → location/presence 
+                                                     → location/presence
+```
+
+# 🛠️ Setup Instructions for Lightweight Company Research Agent
+
+This guide provides the steps to set up and run the project in two modes:
+- 🖥️ **CLI Version**
+- 🌐 **Streamlit UI Version**
+
+---
+
+## 📦 Step 1: Environment Setup (Common to Both Versions)
+
+1. **Install Python 3.8+**
+   > Make sure `python3` and `pip` are available in your terminal.
+
+2. **Install Required Python Libraries**
+   ```bash
+   pip install ollama requests beautifulsoup4 feedparser
+   ```
+3. **Install ollama**
+   > Visit https://ollama.com and install for your OS (Linux/Windows/Mac)
+   > Start ollama Server
+   ``` bash
+   ollama serve
+   ```
+   > In other terminal run
+   ``` bash
+   ollama pull gemma:2b
+   ollama pull phi
+   ```
+## CLI version 
+ > run this command
+   ``` bash
+     python3 company_researcher.py
+```
+## Streamlit version
+ > Install Streamlit
+   ``` bash
+       pip install streamlit
+```
+ > run streamlit
+   ``` bash
+    streamlit run app.py
+```
+
