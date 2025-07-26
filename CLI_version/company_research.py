@@ -167,7 +167,7 @@ if __name__ == "__main__":
     agent = CompanyAgent()
 
     # Company Input 
-    companies = ["OpenAI", "Red Hat", "Canonical"]  
+    companies = ["Motorola","Apple"]  
 
     for company in companies:
         try:

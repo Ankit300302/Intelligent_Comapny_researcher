@@ -5,7 +5,7 @@ import json
 
 st.set_page_config(page_title="Company Research Agent", layout="centered")
 
-st.title("🧠 Lightweight Company Intelligence Agent")
+st.title("🧠 Company Intelligence Agent")
 
 with st.form("company_form"):
     company_name = st.text_input("Enter company name", placeholder="e.g., OpenAI")
@@ -13,7 +13,7 @@ with st.form("company_form"):
 
 if submitted and company_name:
     with st.spinner("🔍 Gathering insights..."):
-        agent = LightweightCompanyAgent()
+        agent = CompanyAgent()
         result = agent.research_company(company_name)
 
     st.subheader(f"📋 Summary for {result['company_name']}")
