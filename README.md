@@ -78,7 +78,7 @@ This guide provides the steps to set up and run the project in two modes:
 </a>
 > Output Screenshot
 <img width="1100" height="843" alt="image" src="https://github.com/user-attachments/assets/9b02a451-8c1e-4962-b31e-cae05b786310" />
->JSON File Output
+> JSON File Output
 <img width="1694" height="538" alt="image" src="https://github.com/user-attachments/assets/a8b04b0b-8145-4415-b09c-8e46fd851839" />
 
 
@@ -99,7 +99,7 @@ This guide provides the steps to set up and run the project in two modes:
 </a>
 
 > Output Screenshot
-<img width="1243" height="719" alt="image" src="https://github.com/user-attachments/assets/8a452a1b-b390-4fec-ad86-6a9ef8b1d7c7" />
+<img width="1238" height="569" alt="image" src="https://github.com/user-attachments/assets/cf0abf96-68c3-48f8-824a-e584c8539a44" />
 <img width="1222" height="745" alt="image" src="https://github.com/user-attachments/assets/ba9c9350-19c6-4bbd-82ee-6e4d2f67029b" />
 <img width="1214" height="597" alt="image" src="https://github.com/user-attachments/assets/3526f0b6-692a-42e1-9d03-ea4bd48eab15" />
 
