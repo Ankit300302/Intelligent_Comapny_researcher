@@ -4,11 +4,11 @@ This project is an AI-powered research agent that autonomously gathers and summa
 
 ---
 
-## 🚀 Features
+## 🚀 Features and LLM used
 
 - 🔍 Wikipedia and DuckDuckGo integration to find official summaries and websites.
 - 📰 Google News RSS scraping for the latest headlines.
-- 🧠 Local LLMs via [Ollama](https://ollama.com/) using `gemma:2b` or `phi` to generate compact company summaries and additional key insights.
+- 🧠 Local LLMs via [Ollama](https://ollama.com/) using `gemma:2b` and `phi` to generate compact company summaries and additional key insights.
 - 📦 Exports JSON reports for easy sharing.
 - 💻 Works in CLI or Streamlit mode.
 
