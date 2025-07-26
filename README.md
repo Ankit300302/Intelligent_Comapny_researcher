@@ -23,7 +23,7 @@ This project is an AI-powered research agent that autonomously gathers and summa
                    │
                    ▼
      ┌─────────────────────────────┐
-     │ LightweightCompanyAgent     │
+     │ Company Researcher Agent     │
      └────────────┬────────────────┘
                   │
     ┌─────────────┼────────────────────────────────────────────────────────────┐
@@ -38,7 +38,7 @@ Wikipedia API   DuckDuckGo API      ollama (LLM)      ollama (LLM x 3)     Googl
                                                      → location/presence
 ```
 
-# 🛠️ Setup Instructions for Lightweight Company Research Agent
+# 🛠️ Setup Instructions for Company Research Agent
 
 This guide provides the steps to set up and run the project in two modes:
 - 🖥️ **CLI Version**
