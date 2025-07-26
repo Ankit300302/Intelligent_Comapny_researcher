@@ -35,7 +35,7 @@ class CompanyAgent:
         print("🧠 Generating summary...")
         summary = self._generate_compact_summary(company_name, wiki_summary, website)
 
-        # Extract key people, products, location
+        # Extracting key people, products, location
         print("🧾 Extracting extra info...")
         extra_info = self._extract_additional_info(company_name, wiki_summary)
 
@@ -54,7 +54,7 @@ class CompanyAgent:
         }
 
     def _get_wikipedia_summary(self, company_name):
-        """Get simplified Wikipedia summary"""
+        """Getting simplified Wikipedia summary"""
         try:
             url = f"https://en.wikipedia.org/w/api.php?action=query&format=json&titles={company_name}&prop=extracts&exintro=True&explaintext=True"
             response = requests.get(url, timeout=10)
@@ -64,7 +64,7 @@ class CompanyAgent:
             return None
 
     def _find_official_website(self, company_name):
-        """Find website with multiple attempts"""
+        """Finding website with multiple attempts"""
         try:
             # Trying direct .com approach 
             if self._validate_website(f"https://www.{company_name.lower().replace(' ', '')}.com"):
@@ -88,7 +88,7 @@ class CompanyAgent:
             return False
 
     def _generate_compact_summary(self, company_name, context, website):
-        """Generate summary with small model"""
+        """Generating summary with LLM model"""
         prompt = f"""In one short paragraph (max 3 sentences), describe {company_name}.
         {f"Website: {website}" if website else ""}
         Context: {context[:500] if context else "No context available"}"""
@@ -104,7 +104,7 @@ class CompanyAgent:
             return "Summary unavailable"
 
     def _extract_additional_info(self, company_name, context):
-        """Extract key people, products/services, and global presence using compact prompts"""
+        """Extracting key people, products/services, and global presence using compact prompts"""
         def ask_ollama(prompt):
             try:
                 response = ollama.generate(
